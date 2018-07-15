@@ -1,0 +1,131 @@
+#navigator {
+    background-color: gainsboro;
+    position: relative;
+    top: 0px;
+    padding-left: 25px;
+    padding-top: 25px;
+    height: 50px;
+}
+
+#trigger{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 75px;
+}
+#items{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#menu{
+    position: fixed;
+    top:0px;
+    right: 0px;
+    height: 100vh;
+    width: 210px;
+    background-color: white;
+    border-color: black;
+    border-style: double;
+    z-index: 9999;
+}
+#X{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 30px;
+}
+#item1{
+    position: relative;
+    top:0px;
+    right: 125px;
+    font-size: 30px;
+}
+#item2{
+    position: relative;
+    top:0px;
+    right: 125px;
+    font-size: 30px;
+}
+#item3{
+    position: relative;
+    top:0px;
+    right: 125px;
+    font-size: 30px;
+}
+#item4{
+    position: relative;
+    top:0px;
+    right: 125px;
+    font-size: 30px;
+}
+
+
+#welcome{
+    text-align: center;
+    margin: auto;
+    padding-top: 60px;
+    height: 100px;
+    background-color:cornflowerblue;
+}
+#title{
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    height: 50px;
+    padding-top: 15px;
+}
+#contents{
+    position: relative;
+    margin: auto;
+    top: 0px;
+    height: 670px;
+    width: 100vw;
+}
+#box1{
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+    top:0px;
+    height: 150px;
+    width: 75vw;
+    background-color: gainsboro;
+}
+#box2{
+    position: relative;
+    padding-top: 10px;
+    top:10px;
+    height: 150px;
+    width: 75vw;
+    margin: auto;
+    background-color: gainsboro;
+}
+#box3{
+    position: relative;
+    padding-top: 10px;
+    top:20px;
+    height: 150px;
+    width: 75vw;
+    margin: auto;
+    background-color: gainsboro;
+}
+#box4{
+    position: relative;
+    padding-top: 10px;
+    top:30px;
+    height: 150px;
+    width: 75vw;
+    margin: auto;
+    background-color: gainsboro;
+}
+#action{
+    text-align: center;
+    position: relative;
+    padding-top: 5px;
+    width:100px;
+    height:30px;
+    margin: auto;
+    top: 20px;
+    /*width: inherit;*/
+    background-color: cornflowerblue;
+}
