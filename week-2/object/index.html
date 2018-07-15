@@ -1,0 +1,37 @@
+<script>
+    function calculate(args){
+        let result;
+        if(args.op==="+"){
+            result=args.n1+args.n2;
+        }else if(args.op==="-"){
+            result=args.n1-args.n2;
+        }else{
+            result="Not supported";
+        }
+        return result;
+    }
+    console.log(calculate({op:"+",n2:4,n1:6}))
+    //first method
+    var polynomial = {
+        op : "-",
+        n1 : 5,
+        n2 : 1,
+    };
+    console.log(calculate(polynomial))
+    
+    //second method
+    function polynomial2(op,n1,n2){
+        this.op = op;
+        this.n1 = n1;
+        this.n2 = n2;
+    }
+    var poly2 = new polynomial2("+",6,9)
+    console.log(calculate(poly2))
+    
+    //third method
+    var polynomial3 = new Object();
+    polynomial3.op = "*";
+    polynomial3.n1 = 2;
+    polynomial3.n2 = 5;
+    console.log(calculate(polynomial3))
+</script>
