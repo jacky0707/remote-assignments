@@ -47,7 +47,20 @@
             <div style="text-align: center" id="box3">Content Box 3</div>
             <div style="text-align: center" id="box4">Content Box 4</div>
         </div>
-        <div id="action">call action</div>
-
+        <div id="action" onclick="morecontents()">call action</div>
+        <script>
+            function morecontents(){
+                document.getElementById('contents2').style.display = "block";
+            }
+        </script>
+        <div id="contents2" style="display: none">
+            <div id="boxes">
+                <div style="text-align: center" id="box5">Content Box 5</div>
+                <div style="text-align: center" id="box6">Content Box 6</div>
+                <div style="text-align: center" id="box7">Content Box 7</div>
+                <div style="text-align: center" id="box8">Content Box 8</div>
+            </div>
+        
+        </div>
     </body>
 </html>

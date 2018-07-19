@@ -143,3 +143,45 @@ body{
     top: 0px;
     background-color: cornflowerblue;
 }
+#contents2{
+    position: relative;
+    margin: auto;
+    top: 15px;
+    height: 1080px;
+    width: 95vw;
+}
+#box5{
+    position: relative;
+    padding-top: 10px;
+    margin: auto;
+    height: 250px;
+    width: 90vw;
+    background-color: gainsboro;
+}
+#box6{
+    position: relative;
+    top: 10px;
+    padding-top: 10px;
+    margin: auto;
+    height: 250px;
+    width: 90vw;
+    background-color: gainsboro;
+}
+#box7{
+    position: relative;
+    padding-top: 10px;
+    top: 20px;
+    margin: auto;
+    height: 250px;
+    width: 90vw;
+    background-color: gainsboro;
+}
+#box8{
+    position: relative;
+    padding-top: 10px;
+    top: 30px;
+    margin: auto;
+    height: 250px;
+    width: 90vw;
+    background-color: gainsboro;
+}
