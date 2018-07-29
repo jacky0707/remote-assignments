@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        Input a number:<br>
+        <input type="text" id="number"><br>
+        <button id="button" onclick="plus()">ans</button>
+        <p id="ans"></p>
+        <script>
+            function plus(){
+                target = parseInt(document.getElementById("number").value)
+                ans = (target+1)*target/2;
+                console.log(ans);
+                document.getElementById("ans").innerHTML = ans;
+            }
+        </script>
+    </body>
+</html>

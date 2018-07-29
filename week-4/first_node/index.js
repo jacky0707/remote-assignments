@@ -2,6 +2,7 @@ var express    = require('express');
 var app        = express();
 
 var router = express.Router();
+
 router.get('/', function(req, res) {
     res.send('Hello, My Server!' );   
 });
@@ -11,11 +12,24 @@ router.get('/getData', function(req, res) {
     }else{
         target = parseInt(req.query.number);
         ans = (target+1)*target/2;
-        res.send('<p>'+ans+'</p>');
+        
+        //assignment2
+        //res.send('<p>'+ans+'</p>');
+        
+        //assignment3
+        res.render('test.html', {
+            ans:ans
+        });
     }
 });
+//assignment3-4
+router.get('/plus', function(req, res) {
+    res.render('test2.html')
+});
 
+app.engine('html', require('ejs').renderFile);
 
+app.use('/test.html', express.static('test.html'))
 app.use(router);
 
 var port = process.env.PORT || 3000;
